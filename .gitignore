@@ -1,0 +1,78 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Opcional: descomenta si no quieres versionar estos (pesados)
+# *.zip
+
+# Capturas Zeeschuimer: suelen superar el límite de 100 MB de GitHub
+french_deputies/zeeschuimer/captures/*.ndjson
+
+# Datos masivos (descargar de nuevo con los scripts si hace falta)
+french_deputies/datos_diputados/data/*.zip
+french_deputies/lois_votes/votes_rd/*.json.zip
+french_deputies/lois_votes/votes_rd/json/
+french_deputies/lois_votes/votes_rd/Dossiers_Legislatifs_XV.json
+french_deputies/lois_votes/votes_rd/Scrutins_XV.json
+french_deputies/lois_votes/votes_rd/Amendements/
+french_deputies/lois_votes/votes_rd/processed/amendements_textos.csv
+
+# Credenciales PISTE (NO subir secretos al repo)
+french_deputies/lois_votes/.env
+french_deputies/lois_votes/votes_rd/textes_lois/*.json
+
+# Caché local (índice dossiers AN)
+french_deputies/lois_votes/votes_rd/.dossier_index_cache.pkl
+
+# Hemiciclo: TSV fuente Regards Citoyens (regenerar con scripts)
+french_deputies/hemicycle/fuente/*.tsv.gz
+
+# Hemiciclo: processed pesados (regenerar con build_interventions_with_deputies.py)
+french_deputies/hemicycle/processed/interventions_xv_2017_2022_with_deputies.csv.gz
+french_deputies/hemicycle/processed/interventions_xv_2017_2022_texts.csv.gz
+french_deputies/hemicycle/processed/interventions_xv_2017_2022_meta.csv.gz
+
+# Zeeschuimer: CSVs procesados pesados (regenerar con merge_zeeschuimer_with_deputies.py)
+french_deputies/zeeschuimer/processed/tweets_with_deputies.csv
+french_deputies/zeeschuimer/processed/tweets_text_only.csv
+french_deputies/twitter_zeeschuimer/processed/tweets_with_deputies.csv
+french_deputies/twitter_zeeschuimer/processed/tweets_text_only.csv
+french_deputies/twitter_zeeschuimer/captures/*.ndjson
+
+# BERTopic: resultados generados (regenerar con los scripts en bertopic_analysis/<fuente>/run.py)
+# Solo se versionan los códigos (run.py, common/) y el README. Todo lo demás (CSVs, HTMLs,
+# logs, backups) se ignora porque se reproduce con `python3 -u <fuente>/run.py`.
+french_deputies/bertopic_analysis/**/results/
+french_deputies/bertopic_analysis/**/results_backup_*/
+french_deputies/bertopic_analysis/*.log
+
+# ManifestoBERTa: resultados generados (regenerar con los scripts en manifestoberta_analysis/<fuente>/run.py)
+# Mismo criterio que arriba: solo código + README.
+french_deputies/manifestoberta_analysis/**/results/
+french_deputies/manifestoberta_analysis/validation/
+
+# KG-Gen: outputs del demo (regenerar con scripts/01..03 + Ollama local)
+french_deputies/kg-gen/data/
+french_deputies/kg-gen/results/
+
+# Manuscrito LaTeX: repo aparte sincronizado con Overleaf (ver manuscrito/README.md)
+manuscrito/
+
+# Respaldos locales
+archivo/
+
+# Archivos temporales de Office
+~$*
