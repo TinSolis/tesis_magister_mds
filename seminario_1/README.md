@@ -1,15 +1,15 @@
-# Seminario de Tesis I — IA7305-1, Primavera 2026
+# Seminario de Tesis I
 
-Cada carpeta corresponde a una entrega del curso y usa el mismo nombre que el curso: `entrega_<n>_…` para los documentos y `presentacion_<n>_…` para las presentaciones. La tabla está en orden cronológico.
+IA7305-1, Primavera 2026. Guardo cada entrega en su propia carpeta y le pongo el mismo nombre que usa el curso.
 
-| Carpeta | Entrega | Plazo | Estado |
+| Carpeta | Qué es | Plazo | Estado |
 |---|---|---|---|
-| `material_curso/` | Material entregado por el curso (manual de normalización FCFM, sesión 4, listado de temas de profesores) | — | — |
-| `entrega_1_propuesta_temas/` | Entrega 1: propuesta de 1 a 3 temas | 1-sep-2026 | Entregada |
-| `presentacion_1_propuesta_tema/` | Presentación 1: propuesta de tema de tesis | 27-sep-2026 | Entregada |
-| `entrega_2_inscripcion_tema/` | Entrega 2: inscripción del tema de tesis | 6-oct-2026 | Entregada |
-| `taller_escritura/` | Taller de escritura (clínica del plan de investigación y material) | — | — |
-| `entrega_final/entrega_3_avance_manuscrito/` | Entrega 3: avance del manuscrito a la fecha | 3-dic-2026, 23:59 | Pendiente |
-| `entrega_final/presentacion_2_avance_tesis/` | Presentación 2: avance de tesis | Subir hasta el 3-dic-2026, 23:59; presentar entre el 7 y el 11-dic | Pendiente |
+| `entrega_1_propuesta_temas/` | Propuesta de 1 a 3 temas | 1-sep-2026 | Entregada |
+| `presentacion_1_propuesta_tema/` | Presentación de la propuesta de tema | 27-sep-2026 | Presentada |
+| `entrega_2_inscripcion_tema/` | Inscripción del tema de tesis | 6-oct-2026 | Entregada |
+| `taller_escritura/` | Material del taller de escritura | | |
+| `entrega_final/entrega_3_avance_manuscrito/` | Avance del manuscrito | 3-dic-2026 | Pendiente |
+| `entrega_final/presentacion_2_avance_tesis/` | Presentación del avance (se presenta entre el 7 y el 11-dic) | 3-dic-2026 | Pendiente |
+| `material_curso/` | Material que entregó el curso | | |
 
-El manuscrito en sí no vive aquí: se escribe en `../manuscrito/` (LaTeX, sincronizado con Overleaf) y en `entrega_final/entrega_3_avance_manuscrito/` se guarda solo el PDF entregado.
+El manuscrito no lo escribo aquí, sino en `../manuscrito/`. En `entrega_final/entrega_3_avance_manuscrito/` guardo solo el PDF que entrego.

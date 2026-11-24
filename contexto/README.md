@@ -1,32 +1,27 @@
-# contexto — hub de contexto de la tesis de Magíster (MDS)
+# contexto
 
-Reúne todo el contexto de la tesis de Magíster en Ciencia de Datos en un solo lugar. Sirve para retomar el trabajo, pasarle contexto a otro chat/IA o entender el proyecto de cero.
+Aquí guardo mis notas de trabajo de la tesis. Las uso para retomar después de un tiempo sin tocarla o para darle contexto a quien me esté ayudando, sea una persona o una IA.
 
-> **Regla de encuadre (leer siempre primero):** en todo lo que se escriba para el MDS (propuesta, manuscrito, presentaciones), el trabajo de datos y análisis se presenta como parte de **esta** tesis. No se menciona la memoria de Ingeniería Civil ni se presenta nada como "ya hecho". Detalle en el §1 de `contexto_general.md`.
+- `contexto_general.md` es el documento principal y el que voy actualizando. Tiene el encuadre, los datos básicos, lo que me pidió Valentin, el alcance, los plazos del seminario, las preguntas abiertas, los riesgos, los próximos pasos y un historial.
+- `preferencias_y_estilo.md` explica cómo trabajo y cómo me gusta que me ayuden.
+- `referencias.md` tiene los papers, modelos y recursos, y para qué uso cada uno.
+- `pipeline/` tiene una nota técnica por módulo de `french_deputies/`, en el orden del pipeline.
 
-## Estructura (igual en la memoria y en el magíster)
+Una regla que sigo en todo lo que escribo para el magíster (propuesta, manuscrito, presentaciones) es presentar el trabajo de datos y análisis como parte de esta tesis. La explico en el §1 de `contexto_general.md`.
 
-| Archivo o carpeta | Qué es |
-|---|---|
-| `README.md` | Este índice |
-| `contexto_general.md` | **Empezar aquí.** Documento principal y vivo: encuadre, datos básicos (guías, programa, proyecto INA), análisis que pide Valentin, alcance, plazos del seminario, preguntas abiertas, riesgos, próximos pasos e historial |
-| `preferencias_y_estilo.md` | Cómo trabajo y cómo me gusta que me ayuden (tono, convenciones LaTeX, formato de entregables) |
-| `referencias.md` | Papers, modelos y recursos, con el rol que cumple cada uno en la tesis |
-| `pipeline/` | Detalle técnico de cada módulo de `french_deputies/` (datos, métodos, cifras), en orden del pipeline |
+## pipeline/
 
-### `pipeline/`
-
-| Archivo | Módulo (`french_deputies/…`) | Qué cubre |
+| Archivo | Módulo | De qué trata |
 |---|---|---|
-| `00_resumen_pipeline.md` | todo | Síntesis integradora: arquitectura del pipeline, corpus, métodos, resultados y limitaciones |
-| `01_datos_diputados.md` | `datos_diputados/` | Cohorte de 668 diputados (ancla de identidad) |
+| `00_resumen_pipeline.md` | todos | Resumen del pipeline completo: corpus, métodos, resultados y limitaciones |
+| `01_datos_diputados.md` | `datos_diputados/` | Los 668 diputados, que son la base para enlazar todo lo demás |
 | `02_manifiestos.md` | `manifestos/` | Programas electorales 2017 (MARPOR) |
-| `03_twitter.md` | `twitter_zeeschuimer/` | Captura de tuits con Zeeschuimer y cruce con la cohorte |
+| `03_twitter.md` | `twitter_zeeschuimer/` | Captura de tuits con Zeeschuimer y cruce con los diputados |
 | `04_hemiciclo.md` | `hemicycle/` | Intervenciones en el hemiciclo (Regards Citoyens) |
 | `05_leyes_y_votos.md` | `lois_votes/` | Leyes, enmiendas y votos por diputado |
 | `06_bertopic.md` | `bertopic_analysis/` | Topic modeling no supervisado |
 | `07_manifestoberta.md` | `manifestoberta_analysis/` | Clasificación supervisada MARPOR |
-| `08_validacion_ches.md` | `ches_analysis/` | Validación RILE vs CHES 2019 |
+| `08_validacion_ches.md` | `ches_analysis/` | Validación RILE contra CHES 2019 |
 | `09_party_analysis.md` | `party_analysis/` | Agenda declarada, revelada y el cruce |
 
-> Los documentos de `pipeline/` y `preferencias_y_estilo.md` parten de una copia del hub de la memoria (`../memoria_ing_civil/contexto/`) y a veces citan rutas viejas como `memoria/…`, `REFERENCIAS.md` o `kg-gen/`; las equivalencias están en `../memoria_ing_civil/contexto/README.md`. Son notas internas de trabajo: sirven para cifras y decisiones del pipeline, **no** para copiar su encuadre al manuscrito del MDS. Si una cifra cambia en el magíster, se actualiza aquí y no en la copia de la memoria.
+Algunas de estas notas las escribí antes de ordenar las carpetas y todavía citan rutas antiguas, como `kg-gen/` (hoy `kg_gen/`) o `REFERENCIAS.md` (hoy `referencias.md`). Las cifras y las decisiones siguen valiendo. Si una cifra cambia, la actualizo aquí.

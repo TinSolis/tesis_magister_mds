@@ -1,12 +1,9 @@
-# Entrega 3 — Avance de manuscrito a la fecha
+# Entrega 3: avance del manuscrito
 
-- **Plazo:** desde el jueves 19-nov-2026 hasta el 3-dic-2026, 23:59.
-- **Formato:** 1 archivo PDF.
-- **Enunciado:** "Se debe entregar el avance del manuscrito a la fecha. Al menos debe contener la portada y secciones enunciadas. Pueden incorporar los avances que han tenido a modo de borrador."
+Se sube un PDF desde el 19 de noviembre hasta el 3 de diciembre de 2026 a las 23:59. El enunciado dice: "Se debe entregar el avance del manuscrito a la fecha. Al menos debe contener la portada y secciones enunciadas. Pueden incorporar los avances que han tenido a modo de borrador."
 
-El manuscrito se escribe en `../../../manuscrito/` (LaTeX, plantilla `umemoria` de la FCFM, sincronizado con Overleaf). Aquí se guarda solo el PDF que se sube, con nombre `entrega_3_avance_manuscrito_agustin_solis.pdf`.
+En la sesión 4 pidieron que incluya lo escrito a la fecha: introducción, antecedentes, objetivos, metodología y lo que haya desarrollado.
 
-Referencias útiles para el formato:
+El manuscrito lo escribo en `../../../manuscrito/`, con la plantilla de la FCFM y sincronizado con Overleaf. Aquí guardo solo el PDF que entrego, como `entrega_3_avance_manuscrito_agustin_solis.pdf`.
 
-- `../../material_curso/manual_normalizacion_fcfm_2022.pdf`
-- `../../taller_escritura/`
+Para el formato reviso `../../material_curso/manual_normalizacion_fcfm_2022.pdf` y lo que vimos en `../../taller_escritura/`.

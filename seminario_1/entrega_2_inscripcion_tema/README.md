@@ -1,12 +1,9 @@
-# Entrega 2 — Inscripción del tema de tesis
+# Entrega 2: inscripción del tema
 
-Entregada el 6-oct-2026.
+La entregué el 6 de octubre de 2026. Fueron dos cosas: el formulario de inscripción y un informe de hasta 5 páginas firmado por Valentin y Franziska.
 
-| Archivo | Qué es |
-|---|---|
-| `propuesta_tesis.md` | Texto fuente del informe de inscripción (antecedentes, objetivos, metodología, plan de trabajo, bibliografía) |
-| `informe_inscripcion_agustin_solis.pdf` | Informe entregado (firmado por guía y co-guía) |
-| `inscripcion_tema_de_tesis_agustin_solis.xls` | Formulario de inscripción llenado |
-| `plantillas/inscripcion_tema_de_tesis.xls` | Formulario en blanco (lo usa `fill_inscripcion_xls.py` como entrada) |
-| `fill_inscripcion_xls.py` | Rellena el formulario: `~/.venvs/pptx/bin/python fill_inscripcion_xls.py` |
-| `plantillas/formato_inscripcion_tema_de_tesis_mds.docx` | Plantilla oficial del informe (máximo 5 páginas) |
+- `propuesta_tesis.md`: el texto que escribí para el informe (antecedentes, objetivos, metodología, plan de trabajo y bibliografía).
+- `informe_inscripcion_agustin_solis.pdf`: el informe que entregué, con las firmas.
+- `inscripcion_tema_de_tesis_agustin_solis.xls`: el formulario ya llenado.
+- `fill_inscripcion_xls.py`: el script que llena el formulario a partir de la plantilla en blanco. Se corre con `~/.venvs/pptx/bin/python fill_inscripcion_xls.py`.
+- `plantillas/`: el formulario en blanco (`inscripcion_tema_de_tesis.xls`) y la plantilla oficial del informe (`formato_inscripcion_tema_de_tesis_mds.docx`).

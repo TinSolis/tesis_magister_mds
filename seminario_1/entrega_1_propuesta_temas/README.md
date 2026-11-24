@@ -1,6 +1,6 @@
-# Entrega 1 — Propuesta de 1 a 3 temas
+# Entrega 1: propuesta de temas
 
-Entregada el 1-sep-2026 como planilla en línea (no hay archivo local):
+La entregué el 1 de septiembre de 2026 en una planilla en línea, así que no hay archivo local:
 https://docs.google.com/spreadsheets/d/140VGDLgMe5zoftWWg3bkJPgEyGgaRfkyYvfPl9XMrxY/edit?usp=sharing
 
-Feedback del seminario (7-sep-2026): el tema no quedaba del todo claro. El texto propuesto y la discusión que siguió están en el §4 y §5 de `../../contexto/contexto_general.md`.
+El 7 de septiembre el seminario me comentó que el tema no quedaba del todo claro. Lo que propuse y cómo lo fuimos definiendo después con Valentin está en los §4 y §5 de `../../contexto/contexto_general.md`.

@@ -1,7 +1,5 @@
 # Material del curso
 
-| Archivo | Qué es |
-|---|---|
-| `manual_normalizacion_fcfm_2022.pdf` | Manual de normalización de memorias y tesis de la FCFM (formato del manuscrito) |
-| `sesion_4_presentacion_final.pdf` | Diapositivas de la sesión 4 sobre la presentación final |
-| `temas_tesis_profesores.tsv` | Listado de temas de tesis ofrecidos por profesores (departamento, título, descripción), como referencia |
+- `manual_normalizacion_fcfm_2022.pdf`: el manual de la FCFM con el formato que deben seguir las memorias y tesis. Lo uso para el manuscrito.
+- `sesion_4_presentacion_final.pdf`: las diapositivas de la sesión 4, donde explican qué pedir en la entrega final.
+- `temas_tesis_profesores.tsv`: el listado de temas de tesis que ofrecían los profesores, que revisé al elegir el mío.
