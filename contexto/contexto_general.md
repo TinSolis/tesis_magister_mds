@@ -188,8 +188,8 @@ Anotar aquí las respuestas cuando lleguen.
 
 **Pendiente ahora (Seminario de Tesis I, cierre):**
 
-1. Entrega 3, avance del manuscrito (plazo 3-dic-2026, 23:59, 1 PDF): portada y secciones enunciadas como mínimo, más los borradores que haya. Se escribe en `manuscrito/` (LaTeX, plantilla `umemoria` con `\tesis{Magíster en Ciencia de Datos}`) y se sube a Overleaf. Detalle en `seminario_1/entrega_3_avance_manuscrito/README.md`.
-2. Presentación 2, avance de tesis (subir 1 archivo hasta el 3-dic-2026; presentación presencial entre el 7 y el 11-dic-2026). Carpeta `seminario_1/presentacion_2_avance_tesis/`.
+1. Entrega 3, avance del manuscrito (plazo 3-dic-2026, 23:59, 1 PDF): portada y secciones enunciadas como mínimo, más los borradores que haya. Se escribe en `manuscrito/` (LaTeX, plantilla `umemoria` con `\tesis{Magíster en Ciencia de Datos}`) y se sube a Overleaf. Detalle en `seminario_1/entrega_final/entrega_3_avance_manuscrito/README.md`.
+2. Presentación 2, avance de tesis (subir 1 archivo hasta el 3-dic-2026; presentación presencial entre el 7 y el 11-dic-2026). Carpeta `seminario_1/entrega_final/presentacion_2_avance_tesis/`.
 3. Definir con Valentin qué datos del proyecto INA se pueden conseguir y qué temas propone (`proyecto_ina/`).
 4. Crear el repo nuevo de GitHub para el magíster y el repo del manuscrito para Overleaf (ver `README.md` de la raíz del repo).
 

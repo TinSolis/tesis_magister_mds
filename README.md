@@ -47,15 +47,11 @@ tesis_magister_mds/
 
 Detalle en [`french_deputies/README.md`](french_deputies/README.md) y en [`contexto/pipeline/`](contexto/pipeline/). Los datos pesados (capturas, JSON crudos, resultados de modelos) no se versionan; se regeneran con los scripts (ver `.gitignore`). Las credenciales de `lois_votes/.env` tampoco.
 
-## Primer push a GitHub
+## Repos en GitHub
 
-El repo ya está inicializado con un primer commit. Para publicarlo:
+| Carpeta | Repo | Qué va ahí |
+|---|---|---|
+| esta carpeta | [TinSolis/tesis_magister_mds](https://github.com/TinSolis/tesis_magister_mds) (público) | Desarrollo: pipeline, contexto, entregas del seminario, proyecto INA |
+| `manuscrito/` | [TinSolis/tesis_magister_mds_manuscrito](https://github.com/TinSolis/tesis_magister_mds_manuscrito) (público) | Escritura: LaTeX sincronizado con Overleaf. Este repo lo ignora; se sube por separado |
 
-1. Crear en GitHub un repo vacío y **privado** llamado `TinSolis/tesis_magister_mds`, sin README ni `.gitignore`.
-2. Desde esta carpeta:
-   ```
-   git remote add origin git@github.com:TinSolis/tesis_magister_mds.git
-   git push -u origin main
-   ```
-
-El manuscrito tiene su propio repo: ver [`manuscrito/README.md`](manuscrito/README.md).
+Flujo de trabajo (`git pull` / `add` / `commit` / `push` y sincronización con Overleaf) en el [README de la raíz](../README.md#cómo-trabajar-día-a-día) y en [`manuscrito/README.md`](manuscrito/README.md).
