@@ -16,14 +16,18 @@ La tesis integra programas electorales, Twitter, intervenciones parlamentarias, 
 ## Estructura
 
 ```
-2_Tesis_Magister_MDS/
-├── README.md                  ← estás aquí
-├── REFERENCIAS.md             ← papers, modelos y recursos, con su rol en la tesis
-├── Context/                   ← hub de contexto (empezar por Context/README.md)
-├── seminario_1/               ← Seminario de Tesis I, una carpeta por entrega
-├── proyecto_INA/              ← proyecto PAROLES ET ACTES y datos audiovisuales
-├── french_deputies/           ← pipeline de datos y análisis (código, READMEs, datos livianos)
-└── manuscrito/                ← (repo aparte, ignorado aquí) LaTeX de la tesis, sincronizado con Overleaf
+tesis_magister_mds/
+├── README.md                    ← estás aquí
+├── contexto/                    ← hub de contexto (empezar por contexto/README.md)
+│   ├── contexto_general.md      ← documento principal de la tesis
+│   ├── preferencias_y_estilo.md ← cómo trabajo y cómo me gusta que me ayuden
+│   ├── referencias.md           ← papers, modelos y recursos, con su rol en la tesis
+│   └── pipeline/00_… a 09_…     ← un documento por módulo de french_deputies/
+├── seminario_1/                 ← Seminario de Tesis I: entrega_1…3, presentacion_1…2, taller y material
+├── proyecto_ina/                ← proyecto PAROLES ET ACTES, datos audiovisuales e ideas del profesor
+├── french_deputies/             ← pipeline de datos y análisis (código, READMEs, datos livianos)
+├── manuscrito/                  ← (repo aparte, ignorado aquí) LaTeX de la tesis, sincronizado con Overleaf
+└── archivo/                     ← (local, ignorado) respaldos y duplicados
 ```
 
 ## Pipeline `french_deputies/`
@@ -39,18 +43,18 @@ La tesis integra programas electorales, Twitter, intervenciones parlamentarias, 
 | `manifestoberta_analysis/` | Clasificación MARPOR (56 categorías) |
 | `ches_analysis/` | Validación contra CHES 2019 |
 | `party_analysis/` | Agenda declarada, revelada y su cruce |
-| `kg-gen/` | Prueba de extracción de grafos de conocimiento |
+| `kg_gen/` | Prueba de extracción de grafos de conocimiento |
 
-Detalle en [`french_deputies/README.md`](french_deputies/README.md) y en [`Context/2_pipeline_datos_y_analisis/`](Context/2_pipeline_datos_y_analisis/). Los datos pesados (capturas, JSON crudos, resultados de modelos) no se versionan; se regeneran con los scripts (ver `.gitignore`). Las credenciales de `lois_votes/.env` tampoco.
+Detalle en [`french_deputies/README.md`](french_deputies/README.md) y en [`contexto/pipeline/`](contexto/pipeline/). Los datos pesados (capturas, JSON crudos, resultados de modelos) no se versionan; se regeneran con los scripts (ver `.gitignore`). Las credenciales de `lois_votes/.env` tampoco.
 
 ## Primer push a GitHub
 
 El repo ya está inicializado con un primer commit. Para publicarlo:
 
-1. Crear en GitHub un repo vacío y **privado** (por ejemplo `TinSolis/tesis-mds-discurso-voto`), sin README ni `.gitignore`.
+1. Crear en GitHub un repo vacío y **privado** llamado `TinSolis/tesis_magister_mds`, sin README ni `.gitignore`.
 2. Desde esta carpeta:
    ```
-   git remote add origin git@github.com:TinSolis/tesis-mds-discurso-voto.git
+   git remote add origin git@github.com:TinSolis/tesis_magister_mds.git
    git push -u origin main
    ```
 
